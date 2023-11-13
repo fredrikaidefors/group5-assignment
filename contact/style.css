@@ -1,0 +1,587 @@
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background: var(--white-colour, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: relative;
+}
+.header {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 130px;
+  position: relative;
+}
+.menu-background {
+  background: var(--white-colour, #ffffff);
+  border-style: solid;
+  border-color: #16315e;
+  border-width: 3px 0px 0px 0px;
+  width: 1440px;
+  height: 130px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.search-bar {
+  position: absolute;
+  inset: 0;
+}
+.background {
+  background: var(--white-colour, #ffffff);
+  border-radius: 2px;
+  border-style: solid;
+  border-color: var(--linecolour, #999999);
+  border-width: 1px;
+  width: 178.34px;
+  height: 32px;
+  position: absolute;
+  left: 811px;
+  top: 80px;
+}
+.search-articles {
+  color: var(--linecolour, #999999);
+  text-align: left;
+  font: 500 19px "Playfair Display", sans-serif;
+  position: absolute;
+  left: 847px;
+  top: 82px;
+  width: 150.9px;
+  height: 17px;
+}
+.vector {
+  position: absolute;
+  left: 821.83px;
+  top: 87.93px;
+  overflow: visible;
+}
+.menu-items {
+  position: absolute;
+  inset: 0;
+}
+.what-we-do-customers-career-ir {
+  color: #2a5db0;
+  text-align: left;
+  font: 700 19px "Playfair Display", sans-serif;
+  position: absolute;
+  left: 94px;
+  top: 85px;
+  width: 853px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.latest {
+  color: var(--primarycolour, #2a5db0);
+  text-align: left;
+  font: 700 19px "Playfair Display", sans-serif;
+  position: absolute;
+  left: 622px;
+  top: 85px;
+  width: 54px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.who-we-are {
+  color: var(--primarycolour, #2a5db0);
+  text-align: left;
+  font: var(--menuitems, 700 19px "Playfair Display", sans-serif);
+  position: absolute;
+  left: 225px;
+  top: 85px;
+  width: 104px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact2 {
+  color: #2a5db0;
+  text-align: left;
+  font: 700 19px "Playfair Display", sans-serif;
+  position: absolute;
+  left: 710px;
+  top: 85px;
+  width: 76px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  font: 700 32px "Open Sans", sans-serif;
+  position: absolute;
+  left: 89px;
+  top: 23px;
+  width: 220px;
+  height: 25px;
+}
+.lines {
+  border-style: solid;
+  border-color: var(--linecolour, #999999);
+  border-width: 1px 0px 1px 0px;
+  width: 1439px;
+  height: 46px;
+  position: absolute;
+  left: 1px;
+  top: 73px;
+}
+.beautiful-modern-building-modern-architecture-1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 387px;
+  position: relative;
+}
+.map {
+  border-style: solid;
+  border-color: var(--linecolour, #999999);
+  border-width: 0px 0px 1px 0px;
+  padding: 67px 107px 50px 107px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-in-touch {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  font: var(--heading-1, 400 25px "Playfair Display", sans-serif);
+  position: absolute;
+  left: 104px;
+  top: 35px;
+  width: 1233px;
+  height: 30px;
+}
+.row {
+  background: var(--white-colour, #ffffff);
+  padding: 20px 0px 50px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1047px;
+  position: relative;
+  overflow: hidden;
+}
+.cell {
+  background: var(--white-colour, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+._4-700-total-company-employees {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  position: relative;
+}
+._4-700-total-company-employees-span {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+._4-700-total-company-employees-span2 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.cell2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content2 {
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  position: relative;
+}
+.text-span {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-span2 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-span3 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-span4 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.cell3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.content3 {
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+._31-bureaus-outside-the-u-s {
+  color: #000000;
+  text-align: left;
+  font: var(--heading-1, 400 25px "Playfair Display", sans-serif);
+  position: relative;
+  flex: 1;
+}
+.social-media-icons {
+  flex-shrink: 0;
+  width: 107px;
+  height: 30px;
+  position: static;
+}
+.facebook {
+  position: absolute;
+  left: 1299px;
+  top: 152px;
+  overflow: visible;
+}
+.tumblr {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 1222px;
+  top: 153px;
+}
+.linked-in {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 1262px;
+  top: 152px;
+}
+.map2 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 287px;
+  position: relative;
+}
+.meet-the-team {
+  padding: 100px 107px 50px 107px;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 1439px;
+  position: relative;
+}
+.meet-the-team2 {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+  position: absolute;
+  left: 105px;
+  top: 50px;
+  width: 1233px;
+  height: 30px;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.image {
+  flex-shrink: 0;
+  width: 175px;
+  height: 290px;
+  position: relative;
+}
+.text2 {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  position: relative;
+  width: 175px;
+  height: 46px;
+}
+.text-2-span {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span2 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span3 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span4 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span5 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span6 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span7 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span8 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span9 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span10 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span11 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span12 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span13 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span14 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span15 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span16 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span17 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span18 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span19 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span20 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span21 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span22 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.text-2-span23 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-2-span24 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.footer {
+  border-style: solid;
+  border-color: var(--linecolour, #999999);
+  border-width: 1px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.row2 {
+  background: var(--white-colour, #ffffff);
+  padding: 20px 107px 20px 107px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  height: 192px;
+  position: relative;
+  overflow: hidden;
+}
+.cell4 {
+  background: var(--white-colour, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.content4 {
+  padding: 10px 12px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+._4-700-total-company-employees2 {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  position: relative;
+  flex: 1;
+}
+._4-700-total-company-employees-2-span {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+._4-700-total-company-employees-2-span2 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.cell5 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 283px;
+  position: relative;
+}
+.text3 {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  position: relative;
+  flex: 1;
+}
+.text-3-span {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-3-span2 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+.cell6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 440px;
+  position: relative;
+}
+.content5 {
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 440px;
+  position: relative;
+  overflow: hidden;
+}
+.text-span5 {
+  color: var(--black-colour, #000000);
+  font: var(--heading-2, 700 19px "Playfair Display", sans-serif);
+}
+.text-span6 {
+  color: var(--black-colour, #000000);
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+}
+._31-bureaus-outside-the-u-s2 {
+  color: var(--black-colour, #000000);
+  text-align: left;
+  font: var(--paragraphstyle, 400 14px "Open Sans", sans-serif);
+  position: relative;
+  flex: 1;
+}

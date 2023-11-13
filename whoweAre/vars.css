@@ -1,0 +1,15 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --primarycolour: #2a5db0;
+  --linecolour: #999999;
+
+  /* Fonts */
+  --menuitems: 700 19px "Playfair Display", sans-serif;
+  --heading-1: 400 25px "Playfair Display", sans-serif;
+  --heading-2: 700 19px "Playfair Display", sans-serif;
+  --paragraphstyle: 400 14px "Open Sans", sans-serif;
+  --heading-3: 700 13px "Playfair Display", sans-serif;
+
+  /* Effects */
+}
